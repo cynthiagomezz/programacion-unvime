@@ -23,9 +23,6 @@ public class Estudiante {
         for (int i = 0; i < estudiantes.length; i++) {
             System.out.println("************");
             System.out.println("Nombre: " + estudiantes[i].nombre);
-            System.out.println("Apellido: " + estudiantes[i].apellido);
-            System.out.println("Edad: " + estudiantes[i].edad);
-            System.out.println("Carrera: " + estudiantes[i].carrera);
             System.out.println("Promedio: " + estudiantes[i].promedio);
         }
     }
